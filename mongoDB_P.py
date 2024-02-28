@@ -147,5 +147,5 @@ meColl4 = members.find({"Surname":{'$regex':'^(?!A).*y$'}})
 for aDoc in meColl4:
     pprint(aDoc)
 
-G. What do you understand by LEFT and RIGHT join? Explain with an example.
- ANSWER: a join is used to combine rows from two or more tables based on related columns between them such as a foreign key   
+# G. What do you understand by LEFT and RIGHT join? Explain with an example.
+#  ANSWER: a join is used to combine rows from two or more tables based on related columns between them such as a foreign key   
